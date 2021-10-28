@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="logddd",
-    version="0.13.1",
+    version="0.13.3",
     author="LinFeng Dai",
     author_email="dailinfeng66@163.com",
     description="print python logddd",
