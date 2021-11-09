@@ -11,6 +11,8 @@ def log(*args):
         ']', '')
     cur_time = time.asctime()
     log_location = f'{frameInfo.filename}:{frameInfo.lineno}'
-    res = f"\033[1;33m {filename}\tline:{frameInfo.lineno}\033[0m -> \033[32m{code}\033[0m : \033[1;34m {args}\033[0m {cur_time}"
-    print(f'\n{log_location}\n{res}')
+    res = f"\033[1;33m {filename}:{frameInfo.lineno}\tline:{frameInfo.lineno}\033[0m -> \033[32m{code}\033[0m : \033[1;34m {args}\033[0m {cur_time}"
+    # print(f'\n{log_location}\n{res}')
+    print(f'{res}')
+
 
